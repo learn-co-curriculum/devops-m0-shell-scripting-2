@@ -62,7 +62,7 @@ As you can see, the function name can be anything you want it to be. This name i
 
 The `$1` and `$2` are its *arguments*, which allow you to pass in data every time you call it. You can use as many as you want (or none at all). 
 
-> Note: Remember that bash scripts are whitespace-sensitive. That means that the level of indentation matters. If you look at the line inside the `{}` brackets, you'll see that it is indented one level. You can do this using the `Tab` key. Keep a close eye on the indentation levels in all the example code shown, and remember to double check your spacing when having trouble with your scripts!
+> Note: While your scripts might still work with arbitrary levels of indentation, try to always indent once in every block to keep it readable. If you look at the line inside the `{}` brackets, you'll see that it is indented one level. You can do this using the `Tab` key. Keep a close eye on the indentation levels in all the example code shown to get a feel for it! 
 
 In order to invoke the function, all you need to do is call it, with its arguments following it right after:
 
