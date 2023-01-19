@@ -58,7 +58,7 @@ greet() {
 }
 ```
 
-As you can see, the function name can be anything you want it to be. This name is what you use to invoke it later on. 
+As you can see, the function name can be anything you want it to be. This name is what you use to invoke it later on. The name is followed by `()` to indicate to bash that it's a function and not a command or something else. Then we open up a block of code using `{}` brackets that contain the actual function body. 
 
 The `$1` and `$2` are its *arguments*, which allow you to pass in data every time you call it. You can use as many as you want (or none at all). 
 
