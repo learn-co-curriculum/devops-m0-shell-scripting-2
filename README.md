@@ -28,6 +28,12 @@ echo "Hello $name! You are $age years of age."
 
 This example reads in *two* variables, `name` and `age`, from user input. Someone calling our script would first get prompted to enter their name and age, after which they would be stored into their respective variables.
 
+You can also output a message as you read input, like in the following example:
+
+```bash
+read -p "Enter your name:" name
+```
+
 ## Command substitution
 
 **Command substitution** is just a fancy way to refer to using commands in our script. For instance, if we want to assign a variable the contents of a folder (using the `ls` command), we would use command substitution to do so. 
