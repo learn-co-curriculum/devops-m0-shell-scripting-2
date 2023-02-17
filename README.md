@@ -34,16 +34,6 @@ You can also output a message as you read input, like in the following example:
 read -p "Enter your name:" name
 ```
 
-## Command substitution
-
-**Command substitution** is just a fancy way to refer to using commands in our script. For instance, if we want to assign a variable the contents of a folder (using the `ls` command), we would use command substitution to do so. 
-
-In order to substitute a command, all you need to do is wrap it with the `$()` syntax:
-
-`files_in_directory = $(ls)`
-
-That's it!
-
 ## Functions
 
 **Functions** allow you to group code in such a way that lets you invoke them by name any number of times. They are useful for organizing and reusing code, and make your scripts modular and easier to maintain.
